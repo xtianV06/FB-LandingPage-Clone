@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+}
+
+.main-section{
+    display: flex;
+}
+
+.left-section{
+    height: 50px;
+    flex: 1;
+    background-color: yellow;
+}
+
+.right-section{
+    height: 50px;
+    flex: 1;
+    background-color: green
+}
+
+.footer{
+    height: 50px;
+    background-color: gray
+}
+
+@media screen and (max-width: 900px){
+    .main-section{
+        display: block;
+    }
+}
